@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+span, a, label {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.form {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 25px;  
+}
+.picbox {
+    text-align: center;
+    margin-bottom: 12px;
+}
+.pic {
+    width: 135px;
+}
+.title {
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+.label {
+    font-size: 19px;
+    margin-bottom: 3px;
+}
+.input {
+    width: 100%;
+    font-size: 18px;
+    padding: 4px;
+    margin-bottom: 10px;
+    transition: 0.3s all linear;
+}
+.input:focus {
+    outline: none;
+    box-shadow: 0 0 10px black;
+}
+.btn {
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 7px;
+    font-size: 20px;
+    margin-bottom: 12px;
+    transition: 0.3s all linear;
+    background-color: transparent;
+    color: brown;
+    border: 2px solid brown;
+    margin-bottom: 20px;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.text {
+    font-size: 17px;
+    line-height: 1.5;
+}
+.link {
+    color: blue;
+}
+.textbox {
+    width: 100%;
+    font-size: 18px;
+    padding: 4px;
+    margin-bottom: 10px;
+    transition: 0.3s all linear;
+    resize: none;
+    height: 130px;
+}
+.textbox:focus {
+    outline: none;
+    box-shadow: 0 0 7px blue;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+}
+.box {
+    width: 49%;
+}
+.o {
+    color: brown;
+    margin-bottom: 20px;
+}
+.box1{
+    width: 50%;
+}
+.big {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
